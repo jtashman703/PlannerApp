@@ -1,0 +1,297 @@
+/* Navbar styles
+------------------------------------------------*/
+.navSign {
+  width: 100%;
+  background-color: #1c2127;
+}
+
+.navbar {
+  padding-top: 25px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 25px;
+}
+
+a.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  color: #29bf89;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 5px 20px;
+  border: 1px solid #29bf89;
+}
+
+.user-name {
+  font-family: 'Montserrat', sans-serif;
+  color: #bdbdbd;
+  margin-right: 15px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  color: #bdbdbd;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.nav-link:hover {
+  color: #29bf89;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #bdbdbd;
+  border-color: #29bf89;
+  border-radius: 0px;
+}
+
+.btn:hover {
+  color: #1c2127;
+  background-color: #29bf89;
+  border-color: #29bf89;
+  font-weight: 500;
+  border-radius: 0px;
+}
+
+/* Sign-In / Sign-Up styles
+------------------------------------------------*/
+.left-side {
+  background-color: #1c2127;
+  padding: 60px 0 50px 50px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.right-side {
+  background-color: #29bf89;
+  padding: 60px 0 50px 50px;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.signup-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.leftBy-line {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #bdbdbd;
+  margin-bottom: 25px;
+}
+
+.rightBy-line {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #1c2127;
+  margin-bottom: 25px;
+}
+
+.signup-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background-color: #29bf89;
+  padding: 5px 25px;
+  border-color: #29bf89;
+  border-radius: 0;
+  margin-top: 20px;
+}
+
+.signup-btn:hover {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background-color: #fff;
+  padding: 5px 25px;
+  border-color: #fff;
+  border-radius: 0;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.signin-para {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #bdbdbd;
+  margin-top: 10px;
+}
+
+.signin-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background-color: #1c2127;
+  color: #29bf89;
+  padding: 5px 25px;
+  border-color: #1c2127;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.signin-btn:hover {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background-color: #fff;
+  color: #29bf89;
+  padding: 5px 25px;
+  border-color: #fff;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.goog-para {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.goog-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background-color: #1c2127;
+  color: #29bf89;
+  padding: 5px 25px;
+  border-color: #1c2127;
+  border-radius: 0px;
+  margin-bottom: 10px;
+}
+
+.goog-btn:hover {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background-color: #fff;
+  color: #29bf89;
+  padding: 5px 25px;
+  border-color: #fff;
+  border-radius: 0px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+div.Input {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 15px;
+}
+
+input {
+  height: 40px;
+  width: 85%;
+  padding-left: 15px;
+  background-color: transparent;
+  padding-left: 0;
+  color: #bdbdbd;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px #bdbdbd solid;
+}
+
+.rightForm input {
+  height: 40px;
+  width: 85%;
+  padding-left: 15px;
+  background-color: transparent;
+  padding-left: 0;
+  color: #1c2127;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px #1c2127 solid;
+}
+
+.rightForm input::placeholder {
+  color: #1c2127;
+}
+
+/* Sticky Footer styles
+------------------------------------------------*/
+.Site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Site-Content {
+  flex: 1;
+}
+
+/* Media Query - Max Width (1199px)
+------------------------------------------------*/
+@media only screen and (max-width: 1199px) {
+  .left-side {
+    background-color: #1c2127;
+    padding: 60px 0 50px 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+  
+  .right-side {
+    background-color: #29bf89;
+    padding: 60px 0 50px 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+}
+
+/* Media Query - Max Width (991px)
+------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+  .left-side {
+    background-color: #1c2127;
+    padding: 60px 0 50px 50px;
+    margin-left: 0;
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+  
+  .right-side {
+    background-color: #29bf89;
+    padding: 60px 0 50px 50px;
+    margin-right: 0;
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+}
+
+/* Media Query - Max Width (767px)
+------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+  .modal-bg {
+    max-width: 100%;
+  }
+
+  .left-side {
+    display: block;
+    min-width: 100%;
+    background-color: #1c2127;
+    padding: 60px 0 50px 50px;
+    margin-left: 0;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 0;
+  }
+  
+  .right-side {
+    display: block;
+    min-width: 100%;
+    background-color: #29bf89;
+    padding: 60px 0 50px 50px;
+    margin-left: 0;
+    margin-right: 50px;
+    margin-top: 0;
+    margin-bottom: 150px;
+  }
+}

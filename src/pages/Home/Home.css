@@ -1,0 +1,324 @@
+/* Navbar styles
+------------------------------------------------*/
+.navDash {
+  width: 100%;
+  background-color: #1c2127;
+}
+
+.navbar {
+  padding-top: 25px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 25px;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+a.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  color: #29bf89;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 5px 20px;
+  border: 1px solid #29bf89;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #bdbdbd;
+  border-color: #29bf89;
+  border-radius: 0px;
+}
+
+.btn:hover {
+  color: #1c2127;
+  background-color: #29bf89;
+  border-color: #29bf89;
+  font-weight: 500;
+  border-radius: 0px;
+}
+
+/* Sidebar styles
+------------------------------------------------*/
+div.sidebar {
+  width: 255px;
+  top: 25px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  padding: 25px 0 0 0;
+  overflow-x: hidden;
+  background-color: #bdbdbd;
+}
+
+/* Home Container styles
+------------------------------------------------*/
+.main-container {
+  max-width: 75%;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 100px;
+}
+
+.attend-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+h1.pend-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  margin-top: 50px;
+}
+
+h1.create-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  margin-top: 50px;
+}
+
+/* Sticky Footer styles
+------------------------------------------------*/
+.Site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Site-Content {
+  flex: 1;
+}
+
+/* Media Query - Max Width (1134px)
+------------------------------------------------*/
+@media only screen and (max-width: 1134px) {
+  .main-container {
+    max-width: 70%;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+  }
+}
+
+/* Media Query - Max Width (991px)
+------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+  .navDash a.navbar-brand {
+    margin-left: 0;
+  }
+  
+  .mobile-nav {
+    display: block;
+    float: right;
+  }
+
+  .logout-icon {
+    font-size: 28px;
+    padding: 10px;
+    color: #29bf89;
+  }
+}
+
+/* Media Query - Max Width (948px)
+------------------------------------------------*/
+@media only screen and (max-width: 948px) {
+  div.sidebar {
+    width: 255px;
+    top: 25px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 25px 0 0 0;
+    overflow-x: hidden;
+    background-color: #bdbdbd;
+  }
+  
+  .main-container {
+    max-width: 67%;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+  }
+}
+
+/* Media Query - Max Width (863px)
+------------------------------------------------*/
+@media only screen and (max-width: 863px) {
+  div.sidebar {
+    width: 80px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    overflow-x: hidden;
+    background-color: #bdbdbd;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .sidenav a {
+    padding: 0px 8px 0px 25px;
+    font-family: 'Montserrat', sans-serif;
+    align-content: center;
+    font-size: 22px;
+    color: #1c2127;
+    display: block;
+  }
+
+  .icon-home::before {
+    padding-left: 4px;
+  }
+
+  .icon-plus::before {
+    padding-left: 6px;
+  }
+
+  .icon-friends::before {
+    padding-left: 3px;
+  }
+
+  .icon-cal::before {
+    padding-left: 6px;
+  }
+  
+  .main-container {
+    max-width: 83%;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+  }
+}
+
+/* Media Query - Max Width (632px)
+------------------------------------------------*/
+@media only screen and (max-width: 632px) {
+  div.sidebar {
+    width: 80px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    overflow-x: hidden;
+    background-color: #bdbdbd;
+  }
+  
+  .main-container {
+    max-width: 78%;
+    margin-top: 28px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+  }
+
+  h1.attend-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  
+  h1.pend-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 50px;
+  }
+  
+  h1.create-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 50px;
+  }
+}
+
+/* Media Query - Max Width (492px)
+------------------------------------------------*/
+@media only screen and (max-width: 492px) {
+  div.sidebar {
+    width: 80px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    overflow-x: hidden;
+    background-color: #bdbdbd;
+  }
+  
+  .main-container {
+    max-width: 75%;
+    margin-top: 34px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+  }
+
+  h1.attend-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  h1.pend-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  
+  h1.create-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+}
+
+/* Media Query - Max Width (434px)
+------------------------------------------------*/
+@media only screen and (max-width: 434px) {
+  div.sidebar {
+    width: 80px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    overflow-x: hidden;
+    background-color: #bdbdbd;
+  }
+  
+  .main-container {
+    max-width: 70%;
+    margin-top: 39px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+  }
+
+  h1.attend-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+  }
+  
+  h1.pend-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 50px;
+  }
+  
+  h1.create-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 50px;
+  }
+}

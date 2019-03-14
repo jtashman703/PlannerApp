@@ -1,0 +1,29 @@
+.icon-home {
+  margin-right: 20px;
+}
+
+.icon-plus {
+  margin-right: 25px;
+}
+
+.icon-friends {
+  margin-right: 20px;
+}
+
+.icon-cal {
+  margin-right: 25px;
+}
+
+.sidenav a {
+  padding: 3px 8px 3px 46px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1c2127;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #fff;
+}

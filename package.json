@@ -1,0 +1,45 @@
+{
+  "name": "eventplanapp",
+  "version": "1.0.0",
+  "main": "./server/server.js",
+  "proxy": "http://0.0.0.0:3001",
+  "repository": "git@github.com:davidjemerson/eventplanapp.git",
+  "author": "djemerson <djemerson@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-mongo": "^2.0.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-session": "*",
+    "if-env": "*",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.19",
+    "morgan": "^1.9.1",
+    "passport": "*",
+    "passport-google-oauth": "^2.0.0",
+    "passport-local": "*",
+    "react-date-picker": "^7.3.0",
+    "react-dates": "^20.1.0",
+    "react-moment": "^0.8.4",
+    "react-responsive-modal": "^3.6.0",
+    "react-transition-group": "^2.6.1",
+    "serve-favicon": "*"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "if-env NODE_ENV=production && yarn run start:prod || yarn run start:dev",
+    "start:prod": "node server/server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"yarn run client\"",
+    "client": "node scripts/start-client.js",
+    "build": "node scripts/build.js",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && yarn install",
+    "heroku-postbuild": "yarn run build",
+    "installDeps": "yarn && cd client && yarn"
+  }
+}

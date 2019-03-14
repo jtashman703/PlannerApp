@@ -1,0 +1,218 @@
+/* Sidebar styles
+------------------------------------------------*/
+.sidebar {
+  width: 255px;
+  top: 25px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  padding: 25px 0 0 0;
+  overflow-x: hidden;
+  background-color: #bdbdbd;
+}
+
+/* Create Container styles
+------------------------------------------------*/
+.create-container {
+  max-width: 70%;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-bottom: 100px;
+}
+
+.created-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+  margin-top: 0;
+}
+
+.event-type, .event-name, .event-date, .event-location, .event-address, .add-friends, .friends-reqd {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#event-type, #event-name, #event-date, #event-location, #event-address, #friends-reqd, #add-friends {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background-color: #29bf89;
+  color: #fff;
+  padding: 5px 25px;
+  border-color: #29BF89;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.submit-btn:hover {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background-color: #1c2127;
+  color: #29bf89;
+  padding: 5px 25px;
+  border-color: #fff;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Sticky Footer styles
+------------------------------------------------*/
+.Site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Site-Content {
+  flex: 1;
+}
+
+/* Media Query - Max Width (948px)
+------------------------------------------------*/
+@media only screen and (max-width: 948px) {
+  div.sidebar {
+    width: 255px;
+    top: 25px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 25px 0 0 0;
+    overflow-x: hidden;
+    background-color: #bdbdbd;
+  }
+  
+  .create-container {
+    max-width: 67%;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+  }
+}
+
+/* Media Query - Max Width (863px)
+------------------------------------------------*/
+@media only screen and (max-width: 863px) {
+  div.sidebar {
+    width: 80px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    overflow-x: hidden;
+    background-color: #bdbdbd;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .sidenav a {
+    padding: 0px 8px 0px 25px;
+    font-family: 'Montserrat', sans-serif;
+    align-content: center;
+    font-size: 22px;
+    color: #1c2127;
+    display: block;
+  }
+
+  .icon-home::before {
+    padding-left: 4px;
+  }
+
+  .icon-plus::before {
+    padding-left: 6px;
+  }
+
+  .icon-friends::before {
+    padding-left: 3px;
+  }
+
+  .icon-cal::before {
+    padding-left: 6px;
+  }
+  
+  .create-container {
+    max-width: 83%;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+  }
+}
+
+/* Media Query - Max Width (632px)
+------------------------------------------------*/
+@media only screen and (max-width: 632px) {
+  div.sidebar {
+    width: 80px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    overflow-x: hidden;
+    background-color: #bdbdbd;
+  }
+  
+  .create-container {
+    max-width: 78%;
+    margin-top: -20px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+  }
+}
+
+/* Media Query - Max Width (492px)
+------------------------------------------------*/
+@media only screen and (max-width: 492px) {
+  div.sidebar {
+    width: 80px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    overflow-x: hidden;
+    background-color: #bdbdbd;
+  }
+  
+  .create-container {
+    max-width: 75%;
+    margin-top: -15px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+  }
+}
+
+/* Media Query - Max Width (434px)
+------------------------------------------------*/
+@media only screen and (max-width: 434px) {
+  div.sidebar {
+    width: 80px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    overflow-x: hidden;
+    background-color: #bdbdbd;
+  }
+  
+  .create-container {
+    max-width: 70%;
+    margin-top: -12px;
+    margin-left: 25px;
+    margin-bottom: 100px;
+  }
+
+  label.event-type, label.event-name, label.event-date, label.event-location, label.event-address, label.friends-reqd {
+    font-size: 14px;
+  }
+}

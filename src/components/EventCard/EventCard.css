@@ -1,0 +1,174 @@
+.event-card {
+  width: 15rem;
+  text-align: center;
+  background-color: #29bf89;
+  border-radius: 0;
+  margin-right: 30px;
+  margin-top: 10px;
+  float: left;
+}
+
+.card-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.card-month {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.card-day {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  margin-top: 0; 
+}
+
+.card-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.event-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #29bf89;
+  background-color: #1c2127;
+  border-color: #1c2127;
+  border-radius: 0px;
+  padding: 2px 15px;
+}
+
+.event-btn:hover {
+  color: #29bf89;
+  background-color: #fff;
+  border-color: #fff;
+  font-weight: 500;
+  border-radius: 0px;
+  padding: 2px 15px;
+}
+
+/* Modal Styles
+------------------------------------------------*/
+.event-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #1c2127;
+  font-weight: 700;
+  font-size: 25px;
+  padding-right: 40px;
+}
+
+svg.styles_closeIcon__1QwbI {
+  margin-top: 8px;
+  color: #1c2127;
+}
+
+.cat-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #1c2127;
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.cat-para {
+  font-family: 'Montserrat', sans-serif;
+  color: #32383f;
+  font-weight: 500;
+  font-size: 17px;
+  padding-right: 40px;
+}
+
+.date-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #1c2127;
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.date-para {
+  font-family: 'Montserrat', sans-serif;
+  color: #32383f;
+  font-weight: 500;
+  font-size: 17px;
+  padding-right: 40px;
+}
+
+.loc-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #1c2127;
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.loc-para {
+  font-family: 'Montserrat', sans-serif;
+  color: #32383f;
+  font-weight: 500;
+  font-size: 17px;
+  padding-right: 40px;
+}
+
+.add-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #1c2127;
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.add-para {
+  font-family: 'Montserrat', sans-serif;
+  color: #32383f;
+  font-weight: 500;
+  font-size: 17px;
+  padding-right: 40px;
+}
+
+.who-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #1c2127;
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.who-para {
+  font-family: 'Montserrat', sans-serif; 
+  color: #32383f;
+  font-weight: 500;
+  font-size: 17px;
+  padding-right: 40px;
+}
+
+.btn.going-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #1c2127;
+  background-color: transparent;
+  padding: 5px 25px;
+  border-color: #29bf89;
+  border-radius: 0;
+  margin-top: 20px;
+}
+
+.btn.notGoing-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #1c2127;
+  background-color: transparent;
+  padding: 5px 25px;
+  border-color: #29bf89;
+  border-radius: 0;
+  margin-top: 20px;
+  margin-left: 15px;
+}

@@ -1,0 +1,37 @@
+.footer {
+  height: 70px;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.footer-byline {
+  margin-top: 25px;
+  float: left;
+}
+
+.copyright {
+  margin-top: 25px;
+  float: right;
+}
+
+/* Media Query - Max Width (767px)
+------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+  .footer-byline {
+    margin-top: 0;
+    padding-top: 14px;
+    display: block;
+    float: none;
+  }
+
+  .copyright {
+    margin-top: 0;
+    display: block;
+    float: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #bdbdbd;
+  }
+}
