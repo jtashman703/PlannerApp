@@ -1,6 +1,9 @@
 {
   "name": "eventplanapp",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.3.0"
+  },
   "main": "./server/server.js",
   "proxy": "http://0.0.0.0:3001",
   "repository": "git@github.com:davidjemerson/eventplanapp.git",
